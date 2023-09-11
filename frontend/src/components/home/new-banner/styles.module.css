@@ -1,0 +1,105 @@
+.sectionWrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 24px 0;
+}
+
+.section {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.imagesContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.firstImageWrapper,
+.secondImageWrapper {
+  width: 50%;
+  height: 240px;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+  background-size: cover;
+}
+
+.firstImageWrapper:hover,
+.secondImageWrapper:hover {
+  transform: scale(1.02);
+}
+
+.firstImageWrapper {
+  background-image: url("../../../images/Special offers/love-banner.jpg");
+}
+
+.secondImageWrapper {
+  background-image: url("../../../images/Special offers/reading-banner.jpg");
+}
+
+.firstImageWrapper a,
+.secondImageWrapper a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+
+.firstImageContainer,
+.secondImageContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.firstImageText,
+.secondImageText {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.firstImageText {
+  color: #f3f48f;
+}
+
+.secondImageText {
+  color: rgb(107, 89, 0);
+  text-align: center;
+}
+
+.firstImageContainer button,
+.secondImageContainer button {
+  width: 150px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.firstImageContainer button:hover,
+.secondImageContainer button:hover {
+  cursor: pointer;
+}
+
+.firstImageContainer button {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.secondImageContainer button {
+  color: rgb(107, 89, 0);
+  border: 2px solid rgb(107, 89, 0);
+}
+
+.chevronIcon {
+  font-size: 20px;
+}

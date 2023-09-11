@@ -1,0 +1,493 @@
+[
+  {
+    "id": 1,
+    "imageUri": "history/black-gold.jpg",
+    "name": "Black gold",
+    "rating": 5,
+    "recommendedPrice": 79,
+    "price": 55,
+    "discount": 30.4,
+    "category": "history"
+  },
+  {
+    "id": 2,
+    "imageUri": "history/elizabeth.jpg",
+    "name": "Elizabeth",
+    "rating": 4,
+    "recommendedPrice": 98,
+    "price": 59,
+    "discount": 39.8
+  },
+  {
+    "id": 3,
+    "imageUri": "history/pandoras-jar.jpg",
+    "name": "Pandoras Jar",
+    "rating": 3,
+    "price": 39.9
+  },
+  {
+    "id": 4,
+    "imageUri": "history/red-memory.jpg",
+    "name": "Red Memory",
+    "rating": 4,
+    "recommendedPrice": 59,
+    "price": 47,
+    "discount": 20.3
+  },
+  {
+    "id": 5,
+    "imageUri": "history/the-anglo-saxons.jpg",
+    "name": "The Anglo Saxons",
+    "rating": 4,
+    "recommendedPrice": 49,
+    "price": 33.5,
+    "discount": 31.6
+  },
+  {
+    "id": 6,
+    "imageUri": "history/the-earth-transformed.jpg",
+    "name": "The Earth Transformed",
+    "rating": 4,
+    "recommendedPrice": 55,
+    "price": 26.9,
+    "discount": 2.2,
+    "extraDiscount": 50
+  },
+  {
+    "id": 7,
+    "imageUri": "history/the-restless-republic.jpg",
+    "name": "The Restless Republic",
+    "rating": 4,
+    "recommendedPrice": 49,
+    "price": 24,
+    "discount": 2,
+    "extraDiscount": 50
+  },
+  {
+    "id": 8,
+    "imageUri": "history/the-windsors-at-war.jpg",
+    "name": "The Windsors At War",
+    "rating": 4,
+    "recommendedPrice": 59,
+    "price": 29,
+    "discount": 1.7,
+    "extraDiscount": 50
+  },
+  {
+    "id": 9,
+    "imageUri": "history/unwell-woman.jpg",
+    "name": "Unwell Woman",
+    "rating": 4,
+    "recommendedPrice": 59,
+    "price": 56.5,
+    "discount": 21.2
+  },
+  {
+    "id": 10,
+    "imageUri": "pets/birdmania.jpg",
+    "name": "Birdmania",
+    "rating": 4,
+    "recommendedPrice": 69,
+    "price": 59,
+    "discount": 14.5
+  },
+  {
+    "id": 11,
+    "imageUri": "pets/catffirmations.jpg",
+    "name": "Catffirmation",
+    "rating": 5,
+    "recommendedPrice": 62.9,
+    "price": 43.98,
+    "discount": 30.1
+  },
+  {
+    "id": 12,
+    "imageUri": "pets/easy-peasy-puppy-squeezy.jpg",
+    "name": "Easy Peasy Puppy Squeezy",
+    "rating": 4,
+    "recommendedPrice": 65,
+    "price": 42.9,
+    "discount": 5.7,
+    "extraDiscount": 30
+  },
+  {
+    "id": 13,
+    "imageUri": "pets/how-to-train-a-superpup.jpg",
+    "name": "How To Train A Pup",
+    "rating": 4,
+    "price": 39.08,
+    "discount": 28.8
+  },
+  {
+    "id": 14,
+    "imageUri": "pets/nalas-world.jpg",
+    "name": "Nalas World",
+    "rating": 4,
+    "recommendedPrice": 49.5,
+    "price": 35.14,
+    "discount": 29
+  },
+  {
+    "id": 15,
+    "imageUri": "pets/nigel.jpg",
+    "name": "Nigel",
+    "rating": 4.5,
+    "recommendedPrice": 59.99,
+    "price": 47.9,
+    "discount": 20.2
+  },
+  {
+    "id": 16,
+    "imageUri": "pets/seven-cats-i-have-loved.jpg",
+    "name": "Seven Cats I Have Loved",
+    "rating": 4,
+    "recommendedPrice": 59.99,
+    "price": 43.99,
+    "discount": 26.7
+  },
+  {
+    "id": 17,
+    "imageUri": "pets/test-your-cat.jpg",
+    "name": "Test Your Cat",
+    "rating": 4,
+    "recommendedPrice": 59.99,
+    "price": 47.9,
+    "discount": 20.2
+  },
+  {
+    "id": 18,
+    "imageUri": "pets/the-cat-who-saved-books.jpg",
+    "name": "The Cats Who Saved Books",
+    "rating": 4,
+    "price": 47.9
+  },
+  {
+    "id": 19,
+    "imageUri": "pets/what-dogs-want.jpg",
+    "name": "What Dogs Want",
+    "rating": 3,
+    "recommendedPrice": 59.9,
+    "price": 39.9,
+    "discount": 4.8,
+    "extraDiscount": 30
+  },
+  {
+    "id": 20,
+    "imageUri": "romance/a-witchs-guide-to-fake-dating-a-demon.jpg",
+    "name": "A Witchs Guide To Fake Dating A Demon",
+    "rating": 5,
+    "recommendedPrice": 59.99,
+    "price": 39.9,
+    "discount": 4.8,
+    "extraDiscount": 30
+  },
+  {
+    "id": 21,
+    "imageUri": "romance/it-ends-with-us.jpg",
+    "name": "It Ends With Us",
+    "rating": 4.6,
+    "price": 48.99
+  },
+  {
+    "id": 22,
+    "imageUri": "romance/it-starts-with-us.jpg",
+    "name": "It starts With Us",
+    "rating": 4,
+    "recommendedPrice": 59.99,
+    "price": 41.99,
+    "discount": 30
+  },
+  {
+    "id": 23,
+    "imageUri": "romance/medusa.jpg",
+    "name": "Medusa",
+    "rating": 4,
+    "recommendedPrice": 56,
+    "price": 50.4,
+    "discount": 10
+  },
+  {
+    "id": 24,
+    "imageUri": "romance/never-never.jpg",
+    "name": "Never Never",
+    "rating": 3,
+    "recommendedPrice": 63.9,
+    "price": 41.9,
+    "discount": 6.3,
+    "extraDiscount": 30
+  },
+  {
+    "id": 25, 
+    "imageUri": "romance/normal-people.jpg",
+    "name": "Normal People",
+    "rating": 4,
+    "recommendedPrice": 65.9,
+    "price": 43.9,
+    "discount": 4.8,
+    "extraDiscount": 30
+  },
+  {
+    "id": 26,
+    "imageUri": "romance/secretly-yours.jpg",
+    "name": "Secretly Yours",
+    "rating": 5,
+    "recommendedPrice": 59,
+    "price": 50.15,
+    "discount": 15
+  },
+  {
+    "id": 27,
+    "imageUri": "romance/the-secret-lives-of-country-gentlemen.jpg",
+    "name": "The Secret Lives Of Country Gentlemen",
+    "rating": 5,
+    "recommendedPrice": 76.9,
+    "price": 51.14,
+    "discount": 5,
+    "extraDiscount": 30
+  },
+  {
+    "id": 28,
+    "imageUri": "romance/things-we-hide-from-the-light.jpg",
+    "name": "Things We Hide From The Light",
+    "rating": 4,
+    "recommendedPrice": 99,
+    "price": 85.9,
+    "discount": 13.2
+  },
+  {
+    "id": 29,
+    "imageUri": "romance/together-again.jpg",
+    "name": "Together Again",
+    "rating": 3,
+    "price": 47.75
+  },
+  {
+    "id": 30,
+    "imageUri": "science-fiction/a-day-of-fallen-night.jpg",
+    "name": "A Day Of Fallen Night",
+    "rating": 3,
+    "recommendedPrice": 48,
+    "price": 31.92,
+    "discount": 5,
+    "extraDiscount": 30
+  },
+  {
+    "id": 31,
+    "imageUri": "science-fiction/birnam-wood.jpg" ,
+    "name": "Birnam Wood",
+    "rating": 4,
+    "recommendedPrice": 55,
+    "price": 26.9,
+    "discount": 2.2,
+    "extraDiscount": 50 
+  },
+  {
+    "id": 32,
+    "imageUri": "science-fiction/children-of-time.jpg",
+    "name": "Children Of Time",
+    "rating": 4,
+    "recommendedPrice": 55, 
+    "price": 26.9,
+    "discount": 2.2,
+    "extraDiscount": 50 
+  },
+  {
+    "id": 33,
+    "imageUri": "science-fiction/iron-widow.jpg",
+    "name": "Iron Widow",
+    "rating": 4,
+    "price": 53.83
+  },
+  {
+    "id": 34,
+    "imageUri": "science-fiction/it-starts-with-us.jpg",
+    "name": "It Starts With Us",
+    "rating": 5,
+    "recommendedPrice": 56.9,
+    "price": 37.84,
+    "discount": 5,
+    "extraDiscount": 30 
+  },
+  {
+    "id": 35,
+    "imageUri": "science-fiction/old-babes-in-the-wood.jpg",
+    "name": "Old Babes In the Wood",
+    "rating": 3,
+    "recommendedPrice": 59.9, 
+    "price": 39.83,
+    "discount": 5,
+    "extraDiscount": 30 
+  },
+  {
+    "id": 36,
+    "imageUri": "science-fiction/old-gods-time.jpg",
+    "name": "Old Gods Time",
+    "rating": 4,
+    "recommendedPrice": 55, 
+    "price": 26.9,
+    "discount": 2.2,
+    "extraDiscount":50 
+  },
+  {
+    "id": 37,
+    "imageUri": "science-fiction/project-hail-mary.jpg", 
+    "name": "Project Hail Mary",
+    "rating": 4, 
+    "price": 53.83
+  },
+  {
+    "id": 38,
+    "imageUri": "science-fiction/the-final-strife.jpg",
+    "name": "The Final Strife",
+    "rating": 5,
+    "price": 39
+  },
+  {
+    "id": 39,
+    "imageUri": "science-fiction/the-shadows-of-london.jpg",
+    "name": "The Shadows Of London",
+    "rating": 4,
+    "recommendedPrice": 56.9,
+    "price": 37.84,
+    "discount": 5,
+    "extraDiscount": 30 
+  },
+  {
+    "id": 40,
+    "imageUri": "thrillers/1989-allie-burns.jpg",
+    "name": "1989 Allie Burns",
+    "rating": 4,
+    "recommendedPrice": 59.9,
+    "price": 39.83,
+    "discount": 5,
+    "extraDiscount": 30 
+  },
+  {
+    "id": 41,
+    "imageUri": "thrillers/a-fatal-crossing.jpg", 
+    "name": "A Fatal Crossing",
+    "rating": 5,
+    "price": 34
+  },
+  {
+    "id": 42,
+    "imageUri": "thrillers/damascus-station.jpg",
+    "name": "Damascus Station",
+    "rating": 4,
+    "recommendedPrice": 76.9,
+    "price": 51.14,
+    "discount": 5,
+    "extraDiscount": 30 
+  },
+  {
+    "id": 43,
+    "imageUri": "thrillers/exiles.jpg",
+    "name": "Exiles",
+    "rating": 5,
+    "recommendedPrice": 49,
+    "price": 34.9,
+    "discount": 11,
+    "extraDiscount": 20 
+  },
+  {
+    "id": 44,
+    "imageUri": "thrillers/holly.jpg",
+    "name": "Holly",
+    "rating": 4,
+    "recommendedPrice": 56.9,
+    "price": 37.84,
+    "discount": 5,
+    "extraDiscount": 30 
+  },
+  {
+    "id": 45,
+    "imageUri": "thrillers/on-the-savage-side.jpg",
+    "name": "On The Savage Side",
+    "rating": 5,
+    "recommendedPrice": 39,
+    "price": 31.2,
+    "discount": 20
+  },
+  {
+    "id": 46,
+    "imageUri": "thrillers/the-blackbird.jpg",
+    "name": "The Blackbird",
+    "rating": 4,
+    "recommendedPrice": 76.9, 
+    "price": 51.14,
+    "discount": 5,
+    "extraDiscount": 30 
+  },
+  {
+    "id": 47,
+    "imageUri": "thrillers/the-dead-of-winter.jpg",
+    "name": "The Dead Of Winter",
+    "rating": 5, 
+    "price": 48 
+  },
+  {
+    "id": 48,
+    "imageUri": "thrillers/the-leviathan.jpg",
+    "name": "The Leviathan",
+    "rating": 4,
+    "recommendedPrice": 45,
+    "price": 34.2,
+    "discount": 5,
+    "extraDiscount": 20
+  },
+  {
+    "id": 49,
+    "imageUri": "thrillers/verity.jpg",
+    "name": "Verity",
+    "rating": 5,
+    "recommendedPrice": 71.4,
+    "price": 49.98,
+    "discount": 30
+  },
+  {
+    "id": 50,
+    "imageUri": "Novel books/when-we-had-wings.jpg",
+    "name": "When We Had Wings",
+    "rating": 5,
+    "recommendedPrice": 62.9,
+    "price": 43.98,
+    "discount": 30.1
+  },
+  {
+    "id": 51,
+    "imageUri": "Novel books/the-return-of-the-king.jpg",
+    "name": "The Return Of The King",
+    "rating": 5,
+    "recommendedPrice": 59.9,
+    "price": 41.98,
+    "discount": 29.9
+  },
+  {
+    "id": 52,
+    "imageUri": "Novel books/the-genesis-engine.jpg",
+    "name": "The Genesis Engine",
+    "rating": 4,
+    "recommendedPrice": 71.5,
+    "price": 51.2,
+    "discount": 28.4
+  },
+  {
+    "id": 53,
+    "imageUri": "mindset/power-of-positive-thinking.jpg",
+    "name": "Power Of Positive Thinking",
+    "rating": 4,
+    "recommendedPrice": 59.9,
+    "price": 41.98,
+    "discount": 29.9
+  },
+  {
+    "id": 54,
+    "imageUri": "comics books/avatar.jpg",
+    "name": "Avatar",
+    "rating": 5,
+    "recommendedPrice": 49.5,
+    "price": 34.65,
+    "discount": 30
+  }
+
+]

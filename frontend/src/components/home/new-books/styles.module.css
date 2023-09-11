@@ -1,0 +1,92 @@
+.sectionWrapper{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 55px;
+}
+
+.section{
+    width: 1200px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cardsWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cardsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftArrow,
+.rightArrow {
+    position: absolute;
+    font-size: 30px;
+    color: #000;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.leftArrow:hover,
+.rightArrow:hover{
+    cursor: pointer;
+}
+
+.leftArrow{
+    left: -40px;
+}
+
+.rightArrow{
+    right: -40px;
+}
+
+.leftArrow.disabled {
+    cursor:default;
+    color: #fff;
+    background-color: #565151;
+}
+
+.rightArrow.disabled {
+    cursor:default;
+    color: #fff;
+    background-color: #565151;
+}
+
+.navigation{
+    font-size: 10px;
+    position: absolute;
+    bottom: -35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    gap: 10px;
+    color: gray;
+}
+
+.emptyCircle,
+.fullCircle {
+    font-size: 12px;
+}
+
+.emptyCircle:hover,
+.fullCircle:hover {
+    cursor: pointer;
+}
+
+.emptyCircle{
+    color: #1e1e1e;
+}
+
+.fullCircle{
+    color: #b224b3;
+}

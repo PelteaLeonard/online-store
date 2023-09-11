@@ -1,0 +1,90 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    box-shadow: 0 0 35px -2px rgba(0,0,0,.2);
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logoIcon {
+    font-size: 35px;
+    color: #6424b2;
+}
+
+.logoContainer span {
+    font-size: 25px;
+}
+
+.inputWrapper {
+    width: 400px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.inputWrapper input {
+    width: 100%;
+    height: 100%;
+    padding: 10px 35px 10px 10px;
+}
+
+.searchIcon {
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+}
+
+.actionsContainer {
+    display: flex;
+}
+
+.accountWrapper {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.accountWrapper span{
+    font-size: 13px;
+    margin-left: 2px;
+}
+
+.favoritesWrapper {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.favoritesWrapper span{
+    font-size: 13px;
+    margin-left: 2px;
+}
+
+.cartWrapper {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.cartWrapper span{
+    font-size: 13px;
+}
+
+.actionsContainer {
+    display: flex;
+    gap: 20px;
+}

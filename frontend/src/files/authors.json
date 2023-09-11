@@ -1,0 +1,72 @@
+[
+    {
+       "id" : 1,
+       "imageUri": "authors/ashlee-vance.jpg",
+       "name": "Ashlee Vance"
+    },
+    {
+        "id" : 2,
+        "imageUri": "authors/bob-mortimer.jpg",
+        "name": "Bob Mortimer"
+    },
+    {
+        "id" : 3,
+        "imageUri": "authors/colleen-hoover.jpg",
+        "name": "Colleen Hoover"
+    },
+    {
+        "id" : 4,
+        "imageUri": "authors/david-goggins.jpg",
+        "name": "David Goggins"
+    },
+    {
+        "id" : 5,
+        "imageUri": "authors/emily-henry.jpg",
+        "name": "Emily Henry"
+    },
+    {
+        "id" : 6,
+        "imageUri": "authors/georgina-lees.jpg",
+        "name": "Georgina Lees"
+    },
+    {
+        "id" : 7,
+        "imageUri": "authors/jim-keen.jpg",
+        "name": "Jim Keen"
+    },
+    {
+        "id" : 8,
+        "imageUri": "authors/kim-stanley-robinson.jpg",
+        "name": "Kim Stanley Robinson"
+    },
+    {
+        "id" : 9,
+        "imageUri": "authors/paulo-coelho.jpg",
+        "name": "Paulo Coelho"
+    },
+    {
+        "id" : 10,
+        "imageUri": "authors/phoebe-morgan.jpg",
+        "name": "Phoebe Morgan"
+    },
+    {
+        "id" : 11,
+        "imageUri": "authors/sally-rooney.jpg",
+        "name": "Sally Rooney"
+    },
+    {
+        "id" : 12,
+        "imageUri": "authors/teresa-driscoll.jpg",
+        "name": "Teresa Driscoll"
+    },
+    {
+        "id" : 13,
+        "imageUri": "authors/vex-king.jpg",
+        "name": "Vex King"
+    },
+    {
+        "id" : 14,
+        "imageUri": "authors/wensley-clarkson.jpg",
+        "name": "Wensley Clarkson"
+    }
+]

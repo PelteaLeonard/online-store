@@ -1,0 +1,137 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Book {
+  id          String    @id @default(uuid())
+  name        String    @unique
+  description String
+  price       Float
+  categoryId  String
+  category    Category  @relation(fields: [categoryId], references: [id])
+  authorId    String
+  author      Author    @relation(fields: [authorId], references: [id])
+  publisherId String
+  publisher   Publisher @relation(fields: [publisherId], references: [id])
+  reviews     Review[]
+
+  @@map("books")
+}
+
+model Author {
+  id          String @id @default(uuid())
+  firstName   String
+  lastName    String
+  description String
+  books       Book[]
+
+  @@map("authors")
+}
+
+model Publisher {
+  id    String @id @default(uuid())
+  name  String
+  books Book[]
+
+  @@map("publishers")
+}
+
+model Category {
+  id    String @id @default(uuid())
+  name  String @unique
+  books Book[]
+
+  @@map("categories")
+}
+
+model User {
+  id            String         @id @default(uuid())
+  firstName     String
+  lastName      String
+  email         String         @unique
+  password      String
+  client        Client?
+  administrator Administrator?
+  loginTokens   LoginToken[]
+  reviews       Review[]
+
+  @@map("users")
+}
+
+model PendingClient {
+  id        String   @id @default(uuid())
+  firstName String
+  lastName  String
+  email     String   @unique
+  password  String
+  token     String   @unique
+  createdAt DateTime @default(now())
+
+  @@map("pending_clients")
+}
+
+model Client {
+  id   String @id @unique @map("user_id")
+  user User   @relation(fields: [id], references: [id], onDelete: Cascade)
+
+  @@map("clients")
+}
+
+model Administrator {
+  id   String @id @unique @map("user_id")
+  user User   @relation(fields: [id], references: [id], onDelete: Cascade)
+
+  @@map("administrators")
+}
+
+model LoginToken {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  token     String
+  createdAt DateTime
+  ipAddress String
+  isValid   Boolean
+
+  @@map("login_tokens")
+}
+
+model Role {
+  id   String @id @default(uuid())
+  name String @unique
+
+  @@map("roles")
+}
+
+model Review {
+  id            String   @id @default(uuid())
+  idBook        String
+  book          Book     @relation(fields: [idBook], references: [id], onDelete: Cascade)
+  idUser        String
+  user          User     @relation(fields: [idUser], references: [id], onDelete: Cascade)
+  title         String
+  text          String
+  rating        Int
+  createdAt     DateTime @default(now())
+  numberOfLikes Int      @default(0)
+  replies       Reply[]
+
+  @@map("reviews")
+}
+
+model Reply {
+  id       String @id @default(uuid())
+  idReview String
+  review   Review @relation(fields: [idReview], references: [id], onDelete: Cascade)
+  text     String
+
+  @@map("replies")
+}

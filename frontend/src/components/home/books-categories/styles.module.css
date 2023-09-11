@@ -1,0 +1,22 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding-bottom: 20px;
+}
+
+.section {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.innerContainer {
+  height: 500px;
+  display: flex;
+}

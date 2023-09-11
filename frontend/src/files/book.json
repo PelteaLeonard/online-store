@@ -1,0 +1,360 @@
+[
+    {
+        "id": 1,
+        "imageUri": "top books/2312.jpg",
+        "name": "2312",
+        "rating": 5,
+        "recommendedPrice": 79,
+        "price": 55,
+        "discount": 30.4,
+        "category": "top books"
+    },
+    {
+        "id": 2,
+        "imageUri": "top books/elon-musk.jpg",
+        "name": "Elon Musk",
+        "rating": 4,
+        "recommendedPrice": 59.9,
+        "price": 41.98,
+        "discount": 29.9,
+        "category": "top books"
+    },
+    {
+        "id": 3,
+        "imageUri": "top books/boys-don-t-cry.jpg",
+        "name": "Boys Don't Cry",
+        "rating": 3,
+        "recommendedPrice": 55,
+        "price": 49.9,
+        "discount": 18.4,
+        "category": "top books"
+    },
+    {
+        "id": 4,
+        "imageUri": "top books/can-t-hurt-me.jpg",
+        "name": "Can't Hurt Me",
+        "rating": 5,
+        "recommendedPrice": 49,
+        "price": 44.9,
+        "discount": 8.4,
+        "category": "top books"
+    },
+    {
+        "id": 5,
+        "imageUri": "top books/confess.jpg",
+        "name": "Confess",
+        "rating": 5,
+        "recommendedPrice": 44.9,
+        "price": 39,
+        "discount": 13.1,
+        "category": "top books"
+    },
+    {
+        "id": 6,
+        "imageUri": "top books/behind-closed-doors.jpg",
+        "name": "Behind Closed Doors",
+        "rating": 4,
+        "recommendedPrice": 49.9,
+        "price": 44.9,
+        "discount": 10,
+        "category": "top books"
+    },
+    {
+        "id": 7,
+        "imageUri": "top books/good-vibes-good-life.jpg",
+        "name": "Good Vibes, Good Life",
+        "rating": 4,
+        "recommendedPrice": 79,
+        "price": 59,
+        "discount": 25.3,
+        "category": "top books"
+    },
+    {
+        "id": 8,
+        "imageUri": "top books/happy-place.jpg",
+        "name": "Happy Place",
+        "rating": 5,
+        "recommendedPrice": 59,
+        "price": 44.9,
+        "discount": 15.4,
+        "category": "top books"
+    },
+    {
+        "id": 9,
+        "imageUri": "top books/hustle-harder-hustle-smarter.jpg",
+        "name": "Hustle Harder, Hustle Smarter",
+        "rating": 4,
+        "recommendedPrice": 59,
+        "price": 44.9,
+        "discount": 23.9,
+        "category": "top books"
+    },
+    {
+        "id": 10,
+        "imageUri": "top books/i-am-watching-you.jpg",
+        "name": "I Am Watching You",
+        "rating": 5,
+        "price": 59,
+        "category": "top books"
+    },
+    {
+        "id": 11,
+        "imageUri": "top books/ikigai.jpg",
+        "name": "Ikigai",
+        "rating": 5,
+        "recommendedPrice": 49,
+        "price": 39,
+        "discount": 20.4,
+        "category": "top books"
+    },
+    {
+        "id": 12,
+        "imageUri": "top books/it-ends-with-us.jpg",
+        "name": "It Ends With Us",
+        "rating": 4,
+        "recommendedPrice": 49,
+        "price": 35,
+        "discount": 28.6,
+        "category": "top books"
+    },
+    {
+        "id": 13,
+        "imageUri": "top books/messi.jpg",
+        "name": "Messi",
+        "rating": 5,
+        "recommendedPrice": 49,
+        "price": 29,
+        "discount": 40.8,
+        "category": "top books"
+    },
+    {
+        "id": 14,
+        "imageUri": "top books/normal-people.jpg",
+        "name": "Normal People",
+        "rating": 4,
+        "recommendedPrice": 60,
+        "price": 42,
+        "discount": 30,
+        "category": "top books"
+    },
+    {
+        "id": 15,
+        "imageUri": "top books/one-of-us-is-lying.jpg",
+        "name": "One Of Us Is Lying",
+        "rating": 5,
+        "recommendedPrice": 62.9,
+        "price": 43.98,
+        "discount": 30.1,
+        "category": "top books"
+    },
+    {
+        "id": 16,
+        "imageUri": "top books/real-people-like-a-book.jpg",
+        "name": "Real People Like A Book",
+        "rating": 4,
+        "recommendedPrice": 46,
+        "price": 27.6,
+        "discount": 40,
+        "category": "top books"
+    },
+    {
+        "id": 17,
+        "imageUri": "top books/shoe-dog.jpg",
+        "name": "Shoe Dog",
+        "rating": 5,
+        "recommendedPrice": 71.5,
+        "price": 51.2,
+        "discount": 28.4,
+        "category": "top books"
+    },
+    {
+        "id":18,
+        "imageUri": "top books/spare.jpg",
+        "name": "Spare",
+        "rating": 5,
+        "recommendedPrice": 99,
+        "price": 85.9,
+        "discount": 13.2,
+        "category": "top books"
+    },
+    {
+        "id": 19,
+        "imageUri": "top books/surrounded-by-idiots.jpg",
+        "name": "Surrounded By Idiots",
+        "rating": 3,
+        "recommendedPrice": 39.9,
+        "price": 23.98,
+        "discount": 39.9,
+        "category": "top books"
+    },
+    {
+        "id": 20,
+        "imageUri": "top books/the-alchemist.jpg",
+        "name": "The Alchemist",
+        "rating": 5,
+        "recommendedPrice": 49,
+        "price": 39,
+        "discount": 20.4,
+        "category": "top books"
+    },
+    {
+        "id": 21,
+        "imageUri": "top books/the-evolution.jpg",
+        "name": "The Evolution",
+        "rating": 4,
+        "recommendedPrice": 49,
+        "price": 39,
+        "discount": 20.4,
+        "category": "top books"
+    },
+    {
+        "id": 22,
+        "imageUri": "top books/the-game.jpg",
+        "name": "The Game",
+        "rating": 5,
+        "recommendedPrice": 59,
+        "price": 39,
+        "discount": 33.9,
+        "category": "top books"
+    },
+    {
+        "id": 23,
+        "imageUri": "top books/the-girl-next-door.jpg",
+        "name": "The Girl Next Door",
+        "rating": 5,
+        "recommendedPrice": 59,
+        "price": 49,
+        "discount": 16.9,
+        "category": "top books"
+    },
+    {
+        "id": 24,
+        "imageUri": "top books/the-girl-upstairs.jpg",
+        "name": "The Girl Upstairs",
+        "rating": 4,
+        "recommendedPrice": 25,
+        "price": 19,
+        "discount": 24,
+        "category": "top books"
+    },
+    {
+        "id": 25,
+        "imageUri": "top books/the-half-moon.jpg",
+        "name": "The Half Moon",
+        "rating": 4,
+        "recommendedPrice": 59,
+        "price": 44.9,
+        "discount": 23.9,
+        "category": "top books"
+    },
+    {
+        "id": 26,
+        "imageUri": "top books/the-power-of-letting-go.jpg",
+        "name": "The Power Of Letting Go",
+        "rating": 4,
+        "recommendedPrice": 43.9,
+        "price": 30.73,
+        "discount": 30,
+        "category": "top books"
+    },
+    {
+        "id": 27,
+        "imageUri": "top books/the-real-top-boys.jpg",
+        "name": "The Real Top Boys",
+        "rating": 5,
+        "recommendedPrice": 49.9,
+        "price": 44.9,
+        "discount": 10,
+        "category": "top books"
+    },
+    {
+        "id": 28,
+        "imageUri": "top books/the-satsuma-complex.jpg",
+        "name": "The Satsuma Complex",
+        "rating": 5,
+        "recommendedPrice": 59.9,
+        "price": 41.98,
+        "discount": 29.9,
+        "category": "top books"
+    },
+    {
+        "id": 29,
+        "imageUri": "top books/the-silent-patient.jpg",
+        "name": "The Silent Patient",
+        "rating": 4,
+        "recommendedPrice": 42,
+        "price": 25.2,
+        "discount": 40,
+        "category": "top books"
+    },
+    {
+        "id": 30,
+        "imageUri": "top books/the-surgeon.jpg",
+        "name": "The Surgeon",
+        "rating": 5,
+        "recommendedPrice": 49,
+        "price": 39,
+        "discount": 20.4,
+        "category": "top books"
+    },
+    {
+        "id": 31,
+        "imageUri": "top books/the-translator.jpg",
+        "name": "The Translator",
+        "rating": 5,
+        "recommendedPrice": 59,
+        "price": 37,
+        "discount": 37.3,
+        "category": "top books"
+    },
+    {
+        "id": 32,
+        "imageUri": "top books/thirteen.jpg",
+        "name": "Thirteen",
+        "rating": 4,
+        "recommendedPrice": 99,
+        "price": 85.9,
+        "discount": 13.2,
+        "category": "top books"
+    },
+    {
+        "id": 33,
+        "imageUri": "top books/ugly-love.jpg",
+        "name": "Ugly Love",
+        "rating": 5,
+        "recommendedPrice": 57,
+        "price": 42.55,
+        "discount": 36.5,
+        "category": "top books"
+    },
+    {
+        "id": 34,
+        "imageUri": "top books/when-breath-becomes-air.jpg",
+        "name": "When Breath Becomes Air",
+        "rating": 5,
+        "recommendedPrice": 62.9,
+        "price": 43.98,
+        "discount": 30.1,
+        "category": "top books"
+    },
+    {
+        "id": 35,
+        "imageUri": "top books/why-women-deserve-less.jpg",
+        "name": "Why Women Deserve Less",
+        "rating": 3,
+        "recommendedPrice": 71.5,
+        "price": 51.2,
+        "discount": 28.4,
+        "category": "top books"
+    },
+    {
+        "id": 36,
+        "imageUri": "top books/you-are-a-champion.jpg",
+        "name": "You Are A Champion",
+        "rating": 4,
+        "recommendedPrice": 59.9,
+        "price": 41.98,
+        "discount": 29.9,
+        "category": "top books"
+    }
+]

@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  background-image: linear-gradient(to left, #3c24b2, #b224b3);
+  color: #fff;
+}
+
+.header nav {
+  display: flex;
+  width: 1200px;
+  gap: 10px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  background-color: #3c24b2;
+  width: 300px;
+}
+
+.menu:hover {
+    cursor: pointer;
+}
+
+.hamburgerIcon {
+    flex: 0 0 70px;
+    font-size: 24px;
+}
+
+.menu p {
+    flex-grow: 1;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.chevronDownIcon {
+    flex: 0 0 50px;
+    font-size: 24px;
+}
+
+.containerLinks{
+    width: calc(1200px - 300px - 10px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.linksGroup {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  gap: 5px;
+}
+
+.linksGroup li {
+    list-style: none;
+}
+
+.linksGroup a {
+    display: flex;
+    align-items: center;
+    padding: 2px 10px 4px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: .25s;
+}
+
+.linksGroup a:hover{
+    border-radius: 100px;
+    border-color: #fff;
+}
